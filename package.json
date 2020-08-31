@@ -1,7 +1,7 @@
 {
   "name": "react-chat-app",
   "version": "1.0.0",
-  "description": "react blog",
+  "description": "react lms",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
@@ -13,7 +13,7 @@
     "frontend": "npm run front --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "Akshat Dalmia",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
