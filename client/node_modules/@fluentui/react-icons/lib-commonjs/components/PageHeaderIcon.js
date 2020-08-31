@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = require("react");
+var createSvgIcon_1 = require("../utils/createSvgIcon");
+var PageHeaderIcon = createSvgIcon_1.default({
+    svg: function (_a) {
+        var classes = _a.classes;
+        return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+            React.createElement("path", { d: "M127 0h1792v2048H127V0zm1665 1921V129H256v1792h1536zM1663 258v639H383V258h1280zm-127 510V387H512v381h1024zm127 256v641H383v-641h1280zm-127 512v-383H512v383h1024z" })));
+    },
+    displayName: 'PageHeaderIcon',
+});
+exports.default = PageHeaderIcon;
+//# sourceMappingURL=PageHeaderIcon.js.map

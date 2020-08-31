@@ -1,0 +1,145 @@
+{
+    "name": "FileManager",
+    "description": "FileManager Component",
+    "keywords": {
+        "common": [
+            "ej2",
+            "syncfusion",
+            "web-components",
+            "typescript",
+            "javascript",
+            "ej2-filemanager",
+            "filemanager",
+            "fileexplorer",
+            "file-explorer",
+            "file-manager"
+        ],
+        "angular": [
+            "angular",
+            "ng",
+            "ng-filemanager",
+            "ej2-ng-filemanager"
+        ],
+        "react": [
+            "react",
+            "reactjs",
+            "react-filemanager",
+            "ej2-react-filemanager"
+        ],
+        "vue": [
+            "vue",
+            "vuejs",
+            "vue-filemanager",
+            "ej2-vue-filemanager"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/syncfusion/ej2-javascript-ui-controls"
+    },
+    "components": [
+        {
+            "baseClass": "FileManager",
+            "directoryName": "file-manager",
+            "type": "simple",
+            "preferredTag": "div",
+            "twoWays": [],
+            "blazorPlaceholder": "filemanager",
+            "dynamicModules": [
+                "DetailsView",
+                "NavigationPane",
+                "LargeIconsView",
+                "Toolbar",
+                "ContextMenu",
+                "BreadCrumbBar"
+            ],
+            "diModuleFiles": [
+                {
+                    "fileName": "details-view"
+                },
+                {
+                    "fileName": "navigation-pane"
+                },
+                {
+                    "fileName": "large-icons-view"
+                },
+                {
+                    "fileName": "toolbar"
+                },
+                {
+                    "fileName": "context-menu"
+                },
+                {
+                    "fileName": "breadcrumb-bar"
+                }
+            ],
+            "comment": [
+                "/**",
+                "  * Represents the Essential JS 2 Angular FileManager Component.",
+                " * ```html",
+                " * <ejs-filemanager showThumbnail='false'></ejs-filemanager>",
+                " * ```",
+                " */"
+            ],
+            "reactComment": [
+                "/**",
+                " Represents the Essential JS 2 react FileManager Component.",
+                " * ```tsx",
+                " * <FileManagerComponent showThumbnail={false}></FileManagerComponent>",
+                " * ```",
+                " */"
+            ],
+            "vueComment": [
+                "/**",
+                " * Represents the Essential JS 2 VueJS FileManager Component.",
+                " * ```vue",
+                " * <ejs-filemanager showThumbnail='false'></ejs-filemanager>",
+                " * ```",
+                " */"
+            ],
+            "complexDirective": [
+                {
+                    "propertyName": "ajaxSettings",
+                    "baseClass": "AjaxSettings"
+                },
+                {
+                    "propertyName": "contextMenuSettings",
+                    "baseClass": "ContextMenuSettings"
+                },
+                {
+                    "propertyName": "detailsViewSettings",
+                    "baseClass": "DetailsViewSettings",
+                    "tagDirective": [
+                        {
+                            "baseClass": "Column",
+                            "propertyName": "columns",
+                            "directoryName": "file-manager",
+                            "directiveClassName": "column",
+                            "arrayDirectiveClassName": "columns",
+                            "templateProperties": [
+                                "template",
+                                "headerTemplate"
+                            ]                                
+                        }
+                    ]
+                },
+                {
+                    "propertyName": "navigationPaneSettings",
+                    "baseClass": "NavigationPaneSettings"
+                },
+                {
+                    "propertyName": "searchSettings",
+                    "baseClass": "SearchSettings"
+                },
+                {
+                    "propertyName": "toolbarSettings",
+                    "baseClass": "ToolbarSettings"
+                },
+                {
+                    "propertyName": "uploadSettings",
+                    "baseClass": "UploadSettings"
+                }
+            ]
+        }
+    ]
+}

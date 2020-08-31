@@ -1,0 +1,1 @@
+{"version":3,"file":"SvgIcon.types.js","sourceRoot":"../src/","sources":["utils/SvgIcon.types.ts"],"names":[],"mappings":"","sourcesContent":["import * as React from 'react';\n\nexport interface ISvgIconProps extends React.HTMLAttributes<HTMLElement> {\n  /**\n   * Custom class to style the icon.\n   */\n  className?: string;\n}\n"]}

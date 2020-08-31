@@ -1,0 +1,14 @@
+define(["require", "exports", "react", "../utils/createSvgIcon"], function (require, exports, React, createSvgIcon_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var BookmarkReportIcon = createSvgIcon_1.default({
+        svg: function (_a) {
+            var classes = _a.classes;
+            return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+                React.createElement("path", { d: "M0 1664v-640h384v640H0zM1920 384v384h-384V384h384zM1408 0v768h-256v896h-128V0h384zM512 1664V384h384v1280H512zm768-768h768v1152l-384-256-384 256V896zm640 128h-512v785q65-43 128-85t128-86q65 42 128 85t128 86v-785z" })));
+        },
+        displayName: 'BookmarkReportIcon',
+    });
+    exports.default = BookmarkReportIcon;
+});
+//# sourceMappingURL=BookmarkReportIcon.js.map

@@ -1,0 +1,12 @@
+import * as React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+var ArrowUpRightIcon = createSvgIcon({
+    svg: function (_a) {
+        var classes = _a.classes;
+        return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+            React.createElement("path", { d: "M384 256h1408v1408h-128V475L347 1792l-91-91L1573 384H384V256z" })));
+    },
+    displayName: 'ArrowUpRightIcon',
+});
+export default ArrowUpRightIcon;
+//# sourceMappingURL=ArrowUpRightIcon.js.map

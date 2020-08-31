@@ -1,0 +1,51 @@
+import * as React from 'react';
+import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
+var overflowButtonProps = { ariaLabel: 'More commands' };
+export var CommandBarSplitDisabledExample = function () {
+    return (React.createElement("div", null,
+        React.createElement(CommandBar, { items: _items, overflowButtonProps: overflowButtonProps, ariaLabel: "Use left and right arrow keys to navigate between commands" })));
+};
+var _items = [
+    {
+        key: 'newItem',
+        text: 'New',
+        iconProps: { iconName: 'Add' },
+        split: true,
+        ariaLabel: 'New',
+        subMenuProps: {
+            items: [
+                { key: 'emailMessage', text: 'Email message', iconProps: { iconName: 'Mail' } },
+                { key: 'calendarEvent', text: 'Calendar event', iconProps: { iconName: 'Calendar' } },
+            ],
+        },
+    },
+    {
+        key: 'upload',
+        text: 'Upload',
+        iconProps: { iconName: 'Upload' },
+        split: true,
+        disabled: true,
+        href: 'https://developer.microsoft.com/en-us/fluentui',
+        subMenuProps: {
+            items: [
+                { key: 'item1', text: 'Item One' },
+                { key: 'item2', text: 'Item Two' },
+            ],
+        },
+    },
+    {
+        key: 'share',
+        text: 'Share',
+        iconProps: { iconName: 'Share' },
+        disabled: true,
+    },
+    {
+        key: 'download',
+        text: 'Download',
+        ariaLabel: 'Download',
+        iconProps: { iconName: 'Download' },
+        iconOnly: true,
+        disabled: true,
+    },
+];
+//# sourceMappingURL=CommandBar.SplitDisabled.Example.js.map

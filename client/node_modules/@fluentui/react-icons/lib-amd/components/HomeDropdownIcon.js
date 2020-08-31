@@ -1,0 +1,14 @@
+define(["require", "exports", "react", "../utils/createSvgIcon"], function (require, exports, React, createSvgIcon_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var HomeDropdownIcon = createSvgIcon_1.default({
+        svg: function (_a) {
+            var classes = _a.classes;
+            return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+                React.createElement("path", { d: "M1152 1536h896l-448 448-448-448zm0-128v-128H896v640H256v-805l-83 82-90-90 941-942 941 942-90 90-83-82v293h-128V987l-640-640-640 640v805h384v-640h512v256h-128z" })));
+        },
+        displayName: 'HomeDropdownIcon',
+    });
+    exports.default = HomeDropdownIcon;
+});
+//# sourceMappingURL=HomeDropdownIcon.js.map

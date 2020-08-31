@@ -1,0 +1,1 @@
+//# sourceMappingURL=SvgIcon.types.js.map

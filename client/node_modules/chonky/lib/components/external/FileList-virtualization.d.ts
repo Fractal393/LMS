@@ -1,0 +1,12 @@
+import React from 'react';
+import { Grid } from 'react-virtualized/dist/commonjs/Grid';
+import { Nilable } from 'tsdef';
+import { FileEntrySize } from '../../types/file-list-view.types';
+import { FileArray } from '../../types/files.types';
+export declare const SmallThumbsSize: FileEntrySize;
+export declare const DefaultEntrySize: FileEntrySize;
+export declare const getColWidth: (index: number, columnCount: number, entrySize: FileEntrySize, gutterSize: number) => number;
+export declare const getRowHeight: (index: number, rowCount: number, entrySize: FileEntrySize, gutterSize: number) => number;
+export declare const useEntryRenderer: (files: FileArray) => (virtualKey: string, index: number, style: any, parent: any, gutterSize?: number | undefined, lastRow?: boolean | undefined, lastColumn?: boolean | undefined) => JSX.Element | null;
+export declare const noContentRenderer: (height?: number | undefined) => JSX.Element;
+export declare const useGridRenderer: (files: FileArray, entrySize: FileEntrySize, entryRenderer: ReturnType<typeof useEntryRenderer>, thumbsGridRef: React.Ref<Nilable<Grid>>, fillParentContainer: boolean) => ({ width, height }: any) => JSX.Element;

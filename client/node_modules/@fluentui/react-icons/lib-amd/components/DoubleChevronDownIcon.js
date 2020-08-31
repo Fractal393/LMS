@@ -1,0 +1,14 @@
+define(["require", "exports", "react", "../utils/createSvgIcon"], function (require, exports, React, createSvgIcon_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var DoubleChevronDownIcon = createSvgIcon_1.default({
+        svg: function (_a) {
+            var classes = _a.classes;
+            return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+                React.createElement("path", { d: "M2048 91L1024 1115 0 91 91 0l933 933L1957 0l91 91zM1024 1829l933-933 91 91-1024 1024L0 987l91-91 933 933z" })));
+        },
+        displayName: 'DoubleChevronDownIcon',
+    });
+    exports.default = DoubleChevronDownIcon;
+});
+//# sourceMappingURL=DoubleChevronDownIcon.js.map

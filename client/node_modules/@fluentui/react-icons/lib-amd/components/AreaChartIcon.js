@@ -1,0 +1,14 @@
+define(["require", "exports", "react", "../utils/createSvgIcon"], function (require, exports, React, createSvgIcon_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var AreaChartIcon = createSvgIcon_1.default({
+        svg: function (_a) {
+            var classes = _a.classes;
+            return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+                React.createElement("path", { d: "M256 1792l1664 1v128l-1792-1V129h128v1663zm1664-859v731H384V760l320-160 435 218 333-332 448 447zM704 744l-192 95v441h433l540-270 307 307V987l-320-321-307 308-461-230zm-192 792h1280v-37l-333-333-484 242H512v128z" })));
+        },
+        displayName: 'AreaChartIcon',
+    });
+    exports.default = AreaChartIcon;
+});
+//# sourceMappingURL=AreaChartIcon.js.map

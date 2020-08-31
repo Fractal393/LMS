@@ -1,0 +1,12 @@
+import * as React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+var TriangleUp12Icon = createSvgIcon({
+    svg: function (_a) {
+        var classes = _a.classes;
+        return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+            React.createElement("path", { d: "M1024 0l1024 2048H0L1024 0zm0 382L276 1877h1496L1024 382z" })));
+    },
+    displayName: 'TriangleUp12Icon',
+});
+export default TriangleUp12Icon;
+//# sourceMappingURL=TriangleUp12Icon.js.map

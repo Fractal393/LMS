@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = require("react");
+var createSvgIcon_1 = require("../utils/createSvgIcon");
+var TilesIcon = createSvgIcon_1.default({
+    svg: function (_a) {
+        var classes = _a.classes;
+        return (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 2048 2048", className: classes.svg },
+            React.createElement("path", { d: "M1280 256v640H0V256h1280zm-128 512V384H128v384h1024zm256-512h640v640h-640V256zm512 512V384h-384v384h384zM768 1664v-640h1280v640H768zm128-512v384h1024v-384H896zM0 1664v-640h640v640H0zm128-512v384h384v-384H128z" })));
+    },
+    displayName: 'TilesIcon',
+});
+exports.default = TilesIcon;
+//# sourceMappingURL=TilesIcon.js.map
