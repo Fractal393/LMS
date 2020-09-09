@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/login" component={Auth(LoginPage, false)} />  
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
           <Route exact path="/blog" component={Auth(BlogPage, null)} />
-          <Route exact path="/blog/create" component={Auth(CreateBlogPage, true)} />
+          <Route exact path="/blog/create" component={Auth(CreateBlogPage, false)} />
           <Route exact path="/blog/post/:postId" component={Auth(PostPage, null)} />
           <Route exact path="/blog/file" component={Auth(Explor, null)} /> 
         </Switch>
