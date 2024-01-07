@@ -23,4 +23,4 @@ npm run dev
 ```
 
 ### Demo:
-<img src="https://drive.google.com/file/d/1mwv7efskGSqnf0z0512RDNGKiF8lYAI0/preview" width="640" height="480" allow="autoplay"></img>
+[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://drive.google.com/file/d/1mwv7efskGSqnf0z0512RDNGKiF8lYAI0/preview)https://drive.google.com/file/d/1mwv7efskGSqnf0z0512RDNGKiF8lYAI0/preview)](https://youtu.be/vt5fpE0bzSY)
