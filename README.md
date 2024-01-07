@@ -19,5 +19,5 @@ npm install
 
 4. To run the application:
 ```
-npm start
+npm run dev
 ```
