@@ -49,4 +49,6 @@ npm run dev
 ```
 
 ### Demo:
-![LMS](https://github.com/Fractal393/LMS/assets/54801158/e7a99bcc-5203-425b-8058-51af49ca925f)(https://drive.google.com/file/d/1mwv7efskGSqnf0z0512RDNGKiF8lYAI0/preview)
+![LMS](https://github.com/Fractal393/LMS/assets/54801158/e7a99bcc-5203-425b-8058-51af49ca925f)
+[![Watch the video](https://github.com/Fractal393/LMS/assets/54801158/e7a99bcc-5203-425b-8058-51af49ca925f)](https://drive.google.com/file/d/1mwv7efskGSqnf0z0512RDNGKiF8lYAI0/preview)
+
